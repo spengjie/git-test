@@ -23,7 +23,7 @@
     "memory": "512",
     "cpu": "256",
     "executionRoleArn": "arn:aws-cn:iam::382348112289:role/pj-git-test-ecs-execution-role",
-    "family": "pj-git-test",
+    "family": "pj-git-test-task-definition",
     "taskRoleArn": "",
     "placementConstraints": []
 }
