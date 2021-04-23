@@ -24,6 +24,6 @@
     "cpu": "256",
     "executionRoleArn": "arn:aws-cn:iam::382348112289:role/pj-git-test-ecs-execution-role",
     "family": "pj-git-test-task-definition",
-    "taskRoleArn": "",
+    "taskRoleArn": "arn:aws-cn:iam::382348112289:role/git-test-aws-cdk-pjgittesttaskdefinitionTaskRole04-AWCXK0PKQIKK",
     "placementConstraints": []
 }
