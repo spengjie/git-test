@@ -15,7 +15,16 @@
                     "protocol": "tcp"
                 }
 
-            ]
+            ],
+            "logConfiguration": {
+              "logDriver": "awslogs",
+              "secretOptions": [],
+              "options": {
+                "awslogs-group": "/ecs/pj-git-test-log",
+                "awslogs-region": "cn-northwest-1",
+                "awslogs-stream-prefix": "ecs"
+              }
+            }
         }
     ],
     "volumes": [],
